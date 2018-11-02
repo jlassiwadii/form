@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css" />
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div class="formulaire">
+        <form action="http://www.google.com" name="x" class="information" onsubmit="return verifForm(this)">
+
+
+            <p class="name" class="name">Name</p>
+            <input type="text" placeholder="Name" name="name" class="name-text" onblur="verifyName(this)">
+
+            <p class="prenom">first Name</p>
+            <input type="textarea" placeholder="First Name" class="prenom-text" onblur="verifyName(this)">
+
+            <p class="address">Address</p>
+            <input type="textarea" class="address-text" onblur="verifyName(this)">
+
+
+            <p class="address-mail">Email_Address</p>
+            <input type="textarea" name="email" class="address-mail-text" onblur="verifMail(this)">
+
+
+            <p class="login">Password</p>
+            <input type="password" name="password" class="login-text"   onblur="verifPassword(this)">  
+
+            <p class="commentaire">Comments:</p>
+            <textarea class="commentaire-text"></textarea onblur="verifMail(this)"> 
+
+
+
+            <div class="envoie">
+                <button type="submit" class="envoyer"> SUMBIT </button>
+            </div>
+            <div class="reinitialiser">
+                <button type="reset" value="Reset" class="initialiser" onclick="myFunction2()">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+body{
+    background-color: #7c2a8e;
+
+}
+.formulaire{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.name-text{
+    width:200px;
+    border-radius: 5px;
+    color:black;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.prenom{
+    color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.prenom-text
+{ 
+    border-radius: 5px;
+    color:black;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+    width:200px;
+}
+.address
+{
+    color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;}
+.address-text{
+    width:200px;
+    border-radius: 5px;
+    color:black;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;}
+.address-mail{color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;}
+.address-mail-text{
+    width:200px;
+    border-radius: 5px;
+    color:black;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.login{color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;}
+.login-text{
+    width:200px;
+    border-radius: 5px;
+    color:black;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;}
+.commentaire{color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;}
+.commentaire-text{
+    width:200px;
+    border-radius: 5px;
+    color:black;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;}
+.envoyer{
+    width:200px;
+    border-radius: 5px;
+    background-color: #6c417a;
+    color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.initialiser{
+    width:200px;
+    border-radius: 5px;
+    background-color: #6c417a;
+    color:white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.envoie{padding-top: 20px;}
+.reinitialiser{padding-top: 20px;}
